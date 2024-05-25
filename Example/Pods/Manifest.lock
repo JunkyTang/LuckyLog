@@ -1,0 +1,28 @@
+PODS:
+  - LuckyException (1.0.1)
+  - LuckyLog (0.1.0):
+    - LuckyException (~> 1.0)
+
+DEPENDENCIES:
+  - LuckyException (from `https://github.com/JunkyTang/LuckyException.git`, tag `1.0.1`)
+  - LuckyLog (from `../`)
+
+EXTERNAL SOURCES:
+  LuckyException:
+    :git: https://github.com/JunkyTang/LuckyException.git
+    :tag: 1.0.1
+  LuckyLog:
+    :path: "../"
+
+CHECKOUT OPTIONS:
+  LuckyException:
+    :git: https://github.com/JunkyTang/LuckyException.git
+    :tag: 1.0.1
+
+SPEC CHECKSUMS:
+  LuckyException: 14fed2cefc505cd147fafb00bb59de8c25873b9f
+  LuckyLog: e0a7ff3dad841184e516015ccb4782cd4c185246
+
+PODFILE CHECKSUM: 986764fddcf2cfb90e00806bbd8ddea94e960b2a
+
+COCOAPODS: 1.15.2

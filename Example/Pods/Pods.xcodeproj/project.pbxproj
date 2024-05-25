@@ -1,0 +1,1003 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		067B791B12D943F30B6970A85EF71C1E /* ExceptionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91B1630BE443A57ABE3DD204A239F8B /* ExceptionHandler.swift */; };
+		0A72A48C62C37B61BAE9857D80D7160B /* Log.Target.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE538FA34E6E25274DDA8771B540D2CA /* Log.Target.swift */; };
+		0B1D0227C5956989F0B5E37989D470D5 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9ABFAFE56BC265176A8D7AB4CF7DA9 /* Log.swift */; };
+		169FC33F5F22A6E649016A3D10E56757 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		260F827DAAAAB74A738811E468AEA1B9 /* LuckyException-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17ABBF6010B2A217F35585C836EAA98E /* LuckyException-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CC659F1BEA37063986DFEB21A580A25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3DD5E93F32E0B803C9D6A6CF6E1F4BEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4DB02D25A0AC0C86AE3765FDB8BB9A88 /* Log.Target.Console.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4247E7703D1A25FDA29E11B95704A65 /* Log.Target.Console.swift */; };
+		648EF343112711333B236716DEAEABAE /* Pods-LuckyLog_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 324777CAA2BA294E2224218A1FEB3C2E /* Pods-LuckyLog_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73C6644734338E35DEFF06A3F7783CBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		76A5BD0871EA061E2FD50B654BDAA3E3 /* Exception.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BA904683BC3293C96BED8B7AFC1CFA /* Exception.swift */; };
+		83CDD4435784D94DCE4CBD22C975F182 /* LuckyLog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4154FC9608461C691DD877197041FBC /* LuckyLog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9515B888DF70F3521AE4837F49041008 /* Pods-LuckyLog_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7100F09BBDD51F1E5A7B4138D1AFFEF5 /* Pods-LuckyLog_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A07F712FAED0F4F3FDA5B53B3AAFAA2F /* LuckyException-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 335B3984E7EB37294C71AA1D29C16B0C /* LuckyException-dummy.m */; };
+		B1EF6034FBCD46DCABA020E5351943AE /* LuckyLog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 177FCE0734C8AB24C4A88EB2AB1305FC /* LuckyLog-dummy.m */; };
+		B76E9F1E3B61BD40F3E752F443B3DAA8 /* Log.Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38EFDC59B62D627BECBFA8467959F1C /* Log.Manager.swift */; };
+		DAC0C792989FFE8D721312748C1D00D1 /* Pods-LuckyLog_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A12F09681A4449008B34AC2F65F00EAD /* Pods-LuckyLog_Tests-dummy.m */; };
+		DCB58EABB292C1C4EE35759D4C1E51E0 /* Pods-LuckyLog_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0FAB0E4B61A1084D942F5E7B3C6DAED /* Pods-LuckyLog_Example-dummy.m */; };
+		E6FA7D7793C3CAE6615AA01DFC0C4D0D /* Log.Target.File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1074DD9E1040BF509B2B2BDCA75BE22A /* Log.Target.File.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A1189527161BDEB5898C5C3CB9E5B90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53B0194AB686C6DF63C1CB3C2394E465;
+			remoteInfo = LuckyException;
+		};
+		B052CF33BBFEA85D44350CB0B4F28D1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9B8648C19056BE636A1F9C301C5AF55;
+			remoteInfo = "Pods-LuckyLog_Example";
+		};
+		BA80737F5D09ABBB89CD0C59B221AF38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AC987456F26F4C64B0AAFC24D447506;
+			remoteInfo = LuckyLog;
+		};
+		D1A5B799FE4370B8B07FD152E2FB19D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53B0194AB686C6DF63C1CB3C2394E465;
+			remoteInfo = LuckyException;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C7ADC455F431280513A6B3B2D260F4E /* Pods-LuckyLog_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LuckyLog_Tests"; path = Pods_LuckyLog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CB8A8C53660A97304225FACEC2C448E /* LuckyException-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LuckyException-prefix.pch"; sourceTree = "<group>"; };
+		106254EE9738A9244069367CEBAA7B9D /* Pods-LuckyLog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuckyLog_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1074DD9E1040BF509B2B2BDCA75BE22A /* Log.Target.File.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Log.Target.File.swift; path = LuckyLog/Classes/Log.Target.File.swift; sourceTree = "<group>"; };
+		177FCE0734C8AB24C4A88EB2AB1305FC /* LuckyLog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LuckyLog-dummy.m"; sourceTree = "<group>"; };
+		17ABBF6010B2A217F35585C836EAA98E /* LuckyException-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LuckyException-umbrella.h"; sourceTree = "<group>"; };
+		2E3C143D89401D1FE0B71E91735FA0B4 /* LuckyException */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LuckyException; path = LuckyException.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EC0C4506C86FA401659D13FEA0EB821 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2EE4760C5D68C0A5D45338F84136AD76 /* LuckyLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LuckyLog.debug.xcconfig; sourceTree = "<group>"; };
+		324777CAA2BA294E2224218A1FEB3C2E /* Pods-LuckyLog_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LuckyLog_Tests-umbrella.h"; sourceTree = "<group>"; };
+		335B3984E7EB37294C71AA1D29C16B0C /* LuckyException-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LuckyException-dummy.m"; sourceTree = "<group>"; };
+		3A8BC301BF17241CEDA6F4E4069DEA3D /* LuckyLog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LuckyLog-Info.plist"; sourceTree = "<group>"; };
+		48C42649C4CFDC72DAE82B3B69FF0388 /* Pods-LuckyLog_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LuckyLog_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5220182C00585F8C03A95F7F664A208E /* Pods-LuckyLog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuckyLog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5720BD60C1E98DDF32BF83F2893D4385 /* LuckyLog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LuckyLog.modulemap; sourceTree = "<group>"; };
+		5DC733305C184C2527BE20546E8A4024 /* Pods-LuckyLog_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LuckyLog_Example-Info.plist"; sourceTree = "<group>"; };
+		6C9ABFAFE56BC265176A8D7AB4CF7DA9 /* Log.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Log.swift; path = LuckyLog/Classes/Log.swift; sourceTree = "<group>"; };
+		7100F09BBDD51F1E5A7B4138D1AFFEF5 /* Pods-LuckyLog_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LuckyLog_Example-umbrella.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76BA904683BC3293C96BED8B7AFC1CFA /* Exception.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Exception.swift; path = LuckyException/Classes/Exception.swift; sourceTree = "<group>"; };
+		825C5A3FB8C8D94C342BA730281AE376 /* Pods-LuckyLog_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LuckyLog_Example"; path = Pods_LuckyLog_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9092B2FC3E2EB3355C8E42566FDBA29E /* LuckyException.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LuckyException.release.xcconfig; sourceTree = "<group>"; };
+		9979ABFA6C56BB319DC45A62873CBEEC /* Pods-LuckyLog_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LuckyLog_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9CAF8F0F0A9E16CA2B690FE58ECB7F51 /* Pods-LuckyLog_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LuckyLog_Example.modulemap"; sourceTree = "<group>"; };
+		9CEEF659BCC2C8FBC8A7CE946C52F228 /* Pods-LuckyLog_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LuckyLog_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EB5D830143D7F9254A55302EA03B280 /* Pods-LuckyLog_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LuckyLog_Tests.modulemap"; sourceTree = "<group>"; };
+		A06BD11D9208475BF9511D4FEDE72481 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A12F09681A4449008B34AC2F65F00EAD /* Pods-LuckyLog_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LuckyLog_Tests-dummy.m"; sourceTree = "<group>"; };
+		A34F21B1B00C09A6391751F982A19280 /* LuckyException-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LuckyException-Info.plist"; sourceTree = "<group>"; };
+		A4199855B2707CCC25E83D03B2D0BBE5 /* LuckyLog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LuckyLog-prefix.pch"; sourceTree = "<group>"; };
+		A5A61E29F97E45C2B53CD8DEBE786BD0 /* LuckyException.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LuckyException.modulemap; sourceTree = "<group>"; };
+		A97513035074A35A12AEFD63D1735F69 /* Pods-LuckyLog_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LuckyLog_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B38EFDC59B62D627BECBFA8467959F1C /* Log.Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Log.Manager.swift; path = LuckyLog/Classes/Log.Manager.swift; sourceTree = "<group>"; };
+		B86D12C4E169A8B39E100FEFC08B1CB2 /* Pods-LuckyLog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuckyLog_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BC673A508FEDC7040FF47B20BA824A31 /* LuckyException.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LuckyException.debug.xcconfig; sourceTree = "<group>"; };
+		BF307BD910545010E9078A6E223BDB4C /* LuckyLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LuckyLog.release.xcconfig; sourceTree = "<group>"; };
+		C91B1630BE443A57ABE3DD204A239F8B /* ExceptionHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExceptionHandler.swift; path = LuckyException/Classes/ExceptionHandler.swift; sourceTree = "<group>"; };
+		CE538FA34E6E25274DDA8771B540D2CA /* Log.Target.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Log.Target.swift; path = LuckyLog/Classes/Log.Target.swift; sourceTree = "<group>"; };
+		D5B4992AB6D4BAFA5A1E76C97354118D /* Pods-LuckyLog_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LuckyLog_Tests-Info.plist"; sourceTree = "<group>"; };
+		D60B4F7759764140F7CD6070D561E7ED /* LuckyLog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LuckyLog.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E0FAB0E4B61A1084D942F5E7B3C6DAED /* Pods-LuckyLog_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LuckyLog_Example-dummy.m"; sourceTree = "<group>"; };
+		E196A8ABE144B112023CF2BA48BACF67 /* LuckyLog */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LuckyLog; path = LuckyLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4154FC9608461C691DD877197041FBC /* LuckyLog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LuckyLog-umbrella.h"; sourceTree = "<group>"; };
+		E4247E7703D1A25FDA29E11B95704A65 /* Log.Target.Console.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Log.Target.Console.swift; path = LuckyLog/Classes/Log.Target.Console.swift; sourceTree = "<group>"; };
+		F54842580E76912BD42DA639C094C7E1 /* Pods-LuckyLog_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LuckyLog_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F70BA6C4872BFC125D73150382342FF9 /* Pods-LuckyLog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuckyLog_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CF25DCF32F5358FAE1B2DEB6678501B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169FC33F5F22A6E649016A3D10E56757 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55FEC90B3239959B69DB7E723F5F5485 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CC659F1BEA37063986DFEB21A580A25 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		667BED0BF265AB4768709757387574B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD5E93F32E0B803C9D6A6CF6E1F4BEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AC7AB6B67A1332B9CF0D456E42A3448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73C6644734338E35DEFF06A3F7783CBD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B4AC9C748C234188811882F7B61763D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2805F7B6D948A42F55145D2934FED466 /* LuckyLog */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		0CCA834E713CCC9D0ADAB4D26A3E15A1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A59FA30B0DBFFBD0648FEBDEC9B489A /* Pods-LuckyLog_Example */,
+				7FF53030640935824D2984E61D740D49 /* Pods-LuckyLog_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2805F7B6D948A42F55145D2934FED466 /* LuckyLog */ = {
+			isa = PBXGroup;
+			children = (
+				6C9ABFAFE56BC265176A8D7AB4CF7DA9 /* Log.swift */,
+				B38EFDC59B62D627BECBFA8467959F1C /* Log.Manager.swift */,
+				CE538FA34E6E25274DDA8771B540D2CA /* Log.Target.swift */,
+				E4247E7703D1A25FDA29E11B95704A65 /* Log.Target.Console.swift */,
+				1074DD9E1040BF509B2B2BDCA75BE22A /* Log.Target.File.swift */,
+				516F218359F595AD776F6F9507E78077 /* Pod */,
+				AC39DE71FC515480BE772B1BF631D93D /* Support Files */,
+			);
+			name = LuckyLog;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4916029AA44A7217C7D34271722A1356 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5A61E29F97E45C2B53CD8DEBE786BD0 /* LuckyException.modulemap */,
+				335B3984E7EB37294C71AA1D29C16B0C /* LuckyException-dummy.m */,
+				A34F21B1B00C09A6391751F982A19280 /* LuckyException-Info.plist */,
+				0CB8A8C53660A97304225FACEC2C448E /* LuckyException-prefix.pch */,
+				17ABBF6010B2A217F35585C836EAA98E /* LuckyException-umbrella.h */,
+				BC673A508FEDC7040FF47B20BA824A31 /* LuckyException.debug.xcconfig */,
+				9092B2FC3E2EB3355C8E42566FDBA29E /* LuckyException.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LuckyException";
+			sourceTree = "<group>";
+		};
+		516F218359F595AD776F6F9507E78077 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A06BD11D9208475BF9511D4FEDE72481 /* LICENSE */,
+				D60B4F7759764140F7CD6070D561E7ED /* LuckyLog.podspec */,
+				2EC0C4506C86FA401659D13FEA0EB821 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		561F577303C84D5CF1FB72335F69860E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E3C143D89401D1FE0B71E91735FA0B4 /* LuckyException */,
+				E196A8ABE144B112023CF2BA48BACF67 /* LuckyLog */,
+				825C5A3FB8C8D94C342BA730281AE376 /* Pods-LuckyLog_Example */,
+				0C7ADC455F431280513A6B3B2D260F4E /* Pods-LuckyLog_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5A59FA30B0DBFFBD0648FEBDEC9B489A /* Pods-LuckyLog_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9CAF8F0F0A9E16CA2B690FE58ECB7F51 /* Pods-LuckyLog_Example.modulemap */,
+				9CEEF659BCC2C8FBC8A7CE946C52F228 /* Pods-LuckyLog_Example-acknowledgements.markdown */,
+				48C42649C4CFDC72DAE82B3B69FF0388 /* Pods-LuckyLog_Example-acknowledgements.plist */,
+				E0FAB0E4B61A1084D942F5E7B3C6DAED /* Pods-LuckyLog_Example-dummy.m */,
+				F54842580E76912BD42DA639C094C7E1 /* Pods-LuckyLog_Example-frameworks.sh */,
+				5DC733305C184C2527BE20546E8A4024 /* Pods-LuckyLog_Example-Info.plist */,
+				7100F09BBDD51F1E5A7B4138D1AFFEF5 /* Pods-LuckyLog_Example-umbrella.h */,
+				106254EE9738A9244069367CEBAA7B9D /* Pods-LuckyLog_Example.debug.xcconfig */,
+				F70BA6C4872BFC125D73150382342FF9 /* Pods-LuckyLog_Example.release.xcconfig */,
+			);
+			name = "Pods-LuckyLog_Example";
+			path = "Target Support Files/Pods-LuckyLog_Example";
+			sourceTree = "<group>";
+		};
+		7FF53030640935824D2984E61D740D49 /* Pods-LuckyLog_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9EB5D830143D7F9254A55302EA03B280 /* Pods-LuckyLog_Tests.modulemap */,
+				9979ABFA6C56BB319DC45A62873CBEEC /* Pods-LuckyLog_Tests-acknowledgements.markdown */,
+				A97513035074A35A12AEFD63D1735F69 /* Pods-LuckyLog_Tests-acknowledgements.plist */,
+				A12F09681A4449008B34AC2F65F00EAD /* Pods-LuckyLog_Tests-dummy.m */,
+				D5B4992AB6D4BAFA5A1E76C97354118D /* Pods-LuckyLog_Tests-Info.plist */,
+				324777CAA2BA294E2224218A1FEB3C2E /* Pods-LuckyLog_Tests-umbrella.h */,
+				5220182C00585F8C03A95F7F664A208E /* Pods-LuckyLog_Tests.debug.xcconfig */,
+				B86D12C4E169A8B39E100FEFC08B1CB2 /* Pods-LuckyLog_Tests.release.xcconfig */,
+			);
+			name = "Pods-LuckyLog_Tests";
+			path = "Target Support Files/Pods-LuckyLog_Tests";
+			sourceTree = "<group>";
+		};
+		8676B5179884CCFE39CA4DA39763F9C7 /* LuckyException */ = {
+			isa = PBXGroup;
+			children = (
+				76BA904683BC3293C96BED8B7AFC1CFA /* Exception.swift */,
+				C91B1630BE443A57ABE3DD204A239F8B /* ExceptionHandler.swift */,
+				4916029AA44A7217C7D34271722A1356 /* Support Files */,
+			);
+			name = LuckyException;
+			path = LuckyException;
+			sourceTree = "<group>";
+		};
+		AC39DE71FC515480BE772B1BF631D93D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5720BD60C1E98DDF32BF83F2893D4385 /* LuckyLog.modulemap */,
+				177FCE0734C8AB24C4A88EB2AB1305FC /* LuckyLog-dummy.m */,
+				3A8BC301BF17241CEDA6F4E4069DEA3D /* LuckyLog-Info.plist */,
+				A4199855B2707CCC25E83D03B2D0BBE5 /* LuckyLog-prefix.pch */,
+				E4154FC9608461C691DD877197041FBC /* LuckyLog-umbrella.h */,
+				2EE4760C5D68C0A5D45338F84136AD76 /* LuckyLog.debug.xcconfig */,
+				BF307BD910545010E9078A6E223BDB4C /* LuckyLog.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LuckyLog";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				0B4AC9C748C234188811882F7B61763D /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F41C3F4E1CF5572E0219489C521CD91C /* Pods */,
+				561F577303C84D5CF1FB72335F69860E /* Products */,
+				0CCA834E713CCC9D0ADAB4D26A3E15A1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F41C3F4E1CF5572E0219489C521CD91C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8676B5179884CCFE39CA4DA39763F9C7 /* LuckyException */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		608DB3AEB5C1AECA2A0D750A4ACF424E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83CDD4435784D94DCE4CBD22C975F182 /* LuckyLog-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77A84D6A17BEBA56B145B67E5DF8DEE5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9515B888DF70F3521AE4837F49041008 /* Pods-LuckyLog_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D305C0D5C7E54D8087304930A731054 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				260F827DAAAAB74A738811E468AEA1B9 /* LuckyException-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5F7A3F95FF8B65D9A74119D34BC34A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				648EF343112711333B236716DEAEABAE /* Pods-LuckyLog_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		462A9C43C64260CB411EE5C99963A2A7 /* Pods-LuckyLog_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42FB01CAB9EFFD65136E73C3ADED2687 /* Build configuration list for PBXNativeTarget "Pods-LuckyLog_Tests" */;
+			buildPhases = (
+				EC5F7A3F95FF8B65D9A74119D34BC34A /* Headers */,
+				1ADB689D1F0E815852E36C2013467AF4 /* Sources */,
+				9AC7AB6B67A1332B9CF0D456E42A3448 /* Frameworks */,
+				2287B2FB6E9DC4CC57A4DC2316F6BD26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD787BBE9DDF5A1F6A2B81A973CDCC13 /* PBXTargetDependency */,
+			);
+			name = "Pods-LuckyLog_Tests";
+			productName = Pods_LuckyLog_Tests;
+			productReference = 0C7ADC455F431280513A6B3B2D260F4E /* Pods-LuckyLog_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		53B0194AB686C6DF63C1CB3C2394E465 /* LuckyException */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0A6EBEA252D4F3246D33463632F9373 /* Build configuration list for PBXNativeTarget "LuckyException" */;
+			buildPhases = (
+				7D305C0D5C7E54D8087304930A731054 /* Headers */,
+				D71D218085CBB32BB4E72227A9B884E3 /* Sources */,
+				55FEC90B3239959B69DB7E723F5F5485 /* Frameworks */,
+				2CD8F6DA600CFDC88F30525FC6EF1AEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuckyException;
+			productName = LuckyException;
+			productReference = 2E3C143D89401D1FE0B71E91735FA0B4 /* LuckyException */;
+			productType = "com.apple.product-type.framework";
+		};
+		5AC987456F26F4C64B0AAFC24D447506 /* LuckyLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 565107BEDB1C5D0B42313148D56E98B2 /* Build configuration list for PBXNativeTarget "LuckyLog" */;
+			buildPhases = (
+				608DB3AEB5C1AECA2A0D750A4ACF424E /* Headers */,
+				67F557EC20FF6C616C78490AD047405F /* Sources */,
+				3CF25DCF32F5358FAE1B2DEB6678501B /* Frameworks */,
+				E6FE79867A4EC9DEBC0A1331C2D04132 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF2BB06901B5CECC05DB15D636D1D842 /* PBXTargetDependency */,
+			);
+			name = LuckyLog;
+			productName = LuckyLog;
+			productReference = E196A8ABE144B112023CF2BA48BACF67 /* LuckyLog */;
+			productType = "com.apple.product-type.framework";
+		};
+		D9B8648C19056BE636A1F9C301C5AF55 /* Pods-LuckyLog_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 410876803A63D35F4F926EE6A019EA7A /* Build configuration list for PBXNativeTarget "Pods-LuckyLog_Example" */;
+			buildPhases = (
+				77A84D6A17BEBA56B145B67E5DF8DEE5 /* Headers */,
+				DA5B1BF61088B2E50EBB1609EFCDCA5C /* Sources */,
+				667BED0BF265AB4768709757387574B9 /* Frameworks */,
+				ADB86E0E7DE73A3DE7A7DFCCA01C0364 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				163622A30D388D043C686E86672D6437 /* PBXTargetDependency */,
+				1576914F55C733D586FEA63EB11A12B8 /* PBXTargetDependency */,
+			);
+			name = "Pods-LuckyLog_Example";
+			productName = Pods_LuckyLog_Example;
+			productReference = 825C5A3FB8C8D94C342BA730281AE376 /* Pods-LuckyLog_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 561F577303C84D5CF1FB72335F69860E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53B0194AB686C6DF63C1CB3C2394E465 /* LuckyException */,
+				5AC987456F26F4C64B0AAFC24D447506 /* LuckyLog */,
+				D9B8648C19056BE636A1F9C301C5AF55 /* Pods-LuckyLog_Example */,
+				462A9C43C64260CB411EE5C99963A2A7 /* Pods-LuckyLog_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2287B2FB6E9DC4CC57A4DC2316F6BD26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD8F6DA600CFDC88F30525FC6EF1AEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADB86E0E7DE73A3DE7A7DFCCA01C0364 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6FE79867A4EC9DEBC0A1331C2D04132 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1ADB689D1F0E815852E36C2013467AF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC0C792989FFE8D721312748C1D00D1 /* Pods-LuckyLog_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67F557EC20FF6C616C78490AD047405F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B1D0227C5956989F0B5E37989D470D5 /* Log.swift in Sources */,
+				B76E9F1E3B61BD40F3E752F443B3DAA8 /* Log.Manager.swift in Sources */,
+				0A72A48C62C37B61BAE9857D80D7160B /* Log.Target.swift in Sources */,
+				4DB02D25A0AC0C86AE3765FDB8BB9A88 /* Log.Target.Console.swift in Sources */,
+				E6FA7D7793C3CAE6615AA01DFC0C4D0D /* Log.Target.File.swift in Sources */,
+				B1EF6034FBCD46DCABA020E5351943AE /* LuckyLog-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D71D218085CBB32BB4E72227A9B884E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A5BD0871EA061E2FD50B654BDAA3E3 /* Exception.swift in Sources */,
+				067B791B12D943F30B6970A85EF71C1E /* ExceptionHandler.swift in Sources */,
+				A07F712FAED0F4F3FDA5B53B3AAFAA2F /* LuckyException-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA5B1BF61088B2E50EBB1609EFCDCA5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB58EABB292C1C4EE35759D4C1E51E0 /* Pods-LuckyLog_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1576914F55C733D586FEA63EB11A12B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LuckyLog;
+			target = 5AC987456F26F4C64B0AAFC24D447506 /* LuckyLog */;
+			targetProxy = BA80737F5D09ABBB89CD0C59B221AF38 /* PBXContainerItemProxy */;
+		};
+		163622A30D388D043C686E86672D6437 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LuckyException;
+			target = 53B0194AB686C6DF63C1CB3C2394E465 /* LuckyException */;
+			targetProxy = D1A5B799FE4370B8B07FD152E2FB19D9 /* PBXContainerItemProxy */;
+		};
+		BD787BBE9DDF5A1F6A2B81A973CDCC13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LuckyLog_Example";
+			target = D9B8648C19056BE636A1F9C301C5AF55 /* Pods-LuckyLog_Example */;
+			targetProxy = B052CF33BBFEA85D44350CB0B4F28D1D /* PBXContainerItemProxy */;
+		};
+		CF2BB06901B5CECC05DB15D636D1D842 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LuckyException;
+			target = 53B0194AB686C6DF63C1CB3C2394E465 /* LuckyException */;
+			targetProxy = 9A1189527161BDEB5898C5C3CB9E5B90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3E35D7E74A119627DE2BBB4108FFE2CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9092B2FC3E2EB3355C8E42566FDBA29E /* LuckyException.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LuckyException/LuckyException-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LuckyException/LuckyException-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LuckyException/LuckyException.modulemap";
+				PRODUCT_MODULE_NAME = LuckyException;
+				PRODUCT_NAME = LuckyException;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A6379EA26BDF1C5EAABBE8ED9F402479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F70BA6C4872BFC125D73150382342FF9 /* Pods-LuckyLog_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LuckyLog_Example/Pods-LuckyLog_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LuckyLog_Example/Pods-LuckyLog_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AD517650F0DEAE379F71F7BADB64FA08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EE4760C5D68C0A5D45338F84136AD76 /* LuckyLog.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LuckyLog/LuckyLog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LuckyLog/LuckyLog-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LuckyLog/LuckyLog.modulemap";
+				PRODUCT_MODULE_NAME = LuckyLog;
+				PRODUCT_NAME = LuckyLog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C1A2A34764339A6F1F9C7595B07958E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC673A508FEDC7040FF47B20BA824A31 /* LuckyException.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LuckyException/LuckyException-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LuckyException/LuckyException-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LuckyException/LuckyException.modulemap";
+				PRODUCT_MODULE_NAME = LuckyException;
+				PRODUCT_NAME = LuckyException;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CC9E2FFBFC08EE39113B3D0040DA887B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF307BD910545010E9078A6E223BDB4C /* LuckyLog.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LuckyLog/LuckyLog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LuckyLog/LuckyLog-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LuckyLog/LuckyLog.modulemap";
+				PRODUCT_MODULE_NAME = LuckyLog;
+				PRODUCT_NAME = LuckyLog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CFE0C373CB3561BAF9E601EFA58D7EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 106254EE9738A9244069367CEBAA7B9D /* Pods-LuckyLog_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LuckyLog_Example/Pods-LuckyLog_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LuckyLog_Example/Pods-LuckyLog_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E2C4C6A0DCED2C37215D4D2644DBF4B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B86D12C4E169A8B39E100FEFC08B1CB2 /* Pods-LuckyLog_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LuckyLog_Tests/Pods-LuckyLog_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LuckyLog_Tests/Pods-LuckyLog_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EFE43F166FA9EAE67AA15B23CADA8ABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5220182C00585F8C03A95F7F664A208E /* Pods-LuckyLog_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LuckyLog_Tests/Pods-LuckyLog_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LuckyLog_Tests/Pods-LuckyLog_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		410876803A63D35F4F926EE6A019EA7A /* Build configuration list for PBXNativeTarget "Pods-LuckyLog_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE0C373CB3561BAF9E601EFA58D7EB2 /* Debug */,
+				A6379EA26BDF1C5EAABBE8ED9F402479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42FB01CAB9EFFD65136E73C3ADED2687 /* Build configuration list for PBXNativeTarget "Pods-LuckyLog_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE43F166FA9EAE67AA15B23CADA8ABF /* Debug */,
+				E2C4C6A0DCED2C37215D4D2644DBF4B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		565107BEDB1C5D0B42313148D56E98B2 /* Build configuration list for PBXNativeTarget "LuckyLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD517650F0DEAE379F71F7BADB64FA08 /* Debug */,
+				CC9E2FFBFC08EE39113B3D0040DA887B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0A6EBEA252D4F3246D33463632F9373 /* Build configuration list for PBXNativeTarget "LuckyException" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1A2A34764339A6F1F9C7595B07958E6 /* Debug */,
+				3E35D7E74A119627DE2BBB4108FFE2CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

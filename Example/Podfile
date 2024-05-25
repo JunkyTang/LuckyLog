@@ -1,0 +1,15 @@
+use_frameworks!
+
+platform :ios, '13.0'
+
+pod 'LuckyException' , :git => 'https://github.com/JunkyTang/LuckyException.git', :tag => '1.0.1'
+
+target 'LuckyLog_Example' do
+  pod 'LuckyLog', :path => '../'
+
+  target 'LuckyLog_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

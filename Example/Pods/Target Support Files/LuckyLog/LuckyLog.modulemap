@@ -1,0 +1,6 @@
+framework module LuckyLog {
+  umbrella header "LuckyLog-umbrella.h"
+
+  export *
+  module * { export * }
+}

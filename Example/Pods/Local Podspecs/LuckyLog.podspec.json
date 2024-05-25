@@ -1,0 +1,27 @@
+{
+  "name": "LuckyLog",
+  "version": "0.1.0",
+  "summary": "A short description of LuckyLog.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/汤俊杰/LuckyLog",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "汤俊杰": "921969987@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/汤俊杰/LuckyLog.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "LuckyLog/Classes/**/*",
+  "dependencies": {
+    "LuckyException": [
+      "~> 1.0"
+    ]
+  }
+}
