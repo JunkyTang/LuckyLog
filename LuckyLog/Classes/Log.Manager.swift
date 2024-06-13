@@ -15,7 +15,7 @@ extension Log {
         
         public static let shared = Manager()
         
-        public var list: [Target] = [Console(level: .debug), File(level: .debug)]
+        public var list: [Target] = [Console(level: .debug)]
         
         public var level: Log.Level = .debug
         

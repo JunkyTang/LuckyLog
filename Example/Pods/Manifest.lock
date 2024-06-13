@@ -1,6 +1,6 @@
 PODS:
   - LuckyException (1.0.1)
-  - LuckyLog (0.1.0):
+  - LuckyLog (1.0.0):
     - LuckyException (~> 1.0)
 
 DEPENDENCIES:
@@ -21,7 +21,7 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   LuckyException: 14fed2cefc505cd147fafb00bb59de8c25873b9f
-  LuckyLog: e0a7ff3dad841184e516015ccb4782cd4c185246
+  LuckyLog: 23179c27067b6d69f6c5712d3ac23b8b3e64695b
 
 PODFILE CHECKSUM: 986764fddcf2cfb90e00806bbd8ddea94e960b2a
 
